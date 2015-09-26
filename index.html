@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Git Issues</title>
+	    <script src="jquery.js"></script>
+        <script src="bootstrap.js"></script>
+        <script src="functions.js"></script>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <style type="text/css">
+        	
+        </style>
+	</head>
+	<body>
+
+<div class="row">
+  <div class="col-xs-12"><h3>Enter repository URL</h3></div>
+  <div class="col-xs-6">
+    <div class="input-group">
+      <input type="text" id="repo-link" class="form-control" placeholder="Search for Repository...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" id ="go-btn" type="button">Go!</button>
+      </span>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-xs-12"><h3>Issues in repository</h3></div>
+<div class="col-xs-6">
+<table class="table-bordered">
+<tbody>
+	<tr ><td >Less than a day</td><td  id="day"></td></tr>
+	<tr ><td >Less than a week</td><td  id="week"></td></tr>
+	<tr ><td >More than a week</td><td  id="more"></td></tr>
+	<tr ><td >Total</td><td  id="total"></td></tr>
+</tbody>
+</table>
+</div>
+	</body>
+<html>
